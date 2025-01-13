@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD con JavaScript y PHP</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="assets/css/home.css">
+</head>
+<body>
+
+  <div class="container my-5">
+    <h1 class="text-center mb-4 mt-5 fw-bold">CRUD de Usuarios Con JavaScript/PHP
+      <hr>
+    </h1>
+
+    <div class="row mt-5">
+      <div class="col-md-4">
+        <form id="user-form" class="mb-4">
+          <input type="hidden" id="user-id" value="">
+          <h2 class="fw-bold mb-5">Registrar Nuevo Usuario <hr></h2>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="age" class="form-label">Edad</label>
+            <input type="number" class="form-control" id="age" required>
+          </div>
+          <label for="flexRadioDefault">¿Habla inglés?</label>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="speak_english" id="Si">
+            <label class="form-check-label" for="Si">
+              Si
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="speak_english" id="No">
+            <label class="form-check-label" for="No">
+             No
+            </label>
+          </div>
+          <div class="d-grid gap-2 mt-3">
+            <button id="form-submit-btn" class="btn btn-primary" type="submit">Crear nuevo usuario</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-md-8">
+        <h2 class="fw-bold mb-5 text-center">Lista de Usuarios <hr></h2>
+        <div class="table-responsive">
+        <table class="table table-bordered">
+          <thead class="table-light">
+            <tr>
+              <th>ID</th>
+              <th>Nombre</th>
+              <th>Correo</th>
+              <th>Edad</th>
+              <th>Habla inglés</th>
+              <th>Fecha de creación</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody id="user-table">
+          </tbody>
+        </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
