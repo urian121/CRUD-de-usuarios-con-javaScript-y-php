@@ -4,6 +4,7 @@
 
 Esta es una guía para crear una API RESTful básica usando PHP y MySQL. Incluye funcionalidades CRUD completas (Crear, Leer, Actualizar y Eliminar) junto con un frontend en JavaScript para interactuar con la API.
 
+![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/portada_flask-socketio__chat_urian_viera.PNG)
 
 ## Estructura del proyecto
 
@@ -137,3 +138,16 @@ crud-javascript-php/
 
 4. **Pruebas de la API:** 
    Puedes utilizar herramientas como [Postman](https://www.postman.com/) o [cURL](https://curl.se/) para probar los endpoints.
+
+
+### Expresiones de Gratitud 🎁
+
+    Comenta a otros sobre este proyecto 📢
+    Invita una cerveza 🍺 o un café ☕
+    Paypal iamdeveloper86@gmail.com
+    Da las gracias públicamente 🤓.
+    Y no olvides dejar tu estrella ⭐ en el repositorio...
+
+¡dicen que trae buena suerte! 🍀
+
+## No olvides SUSCRIBIRTE 👍
