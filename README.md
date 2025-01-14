@@ -137,11 +137,10 @@ crud-javascript-php/
 4. **Pruebas de la API:** 
    Puedes utilizar herramientas como [Postman](https://www.postman.com/) o [cURL](https://curl.se/) para probar los endpoints.
 
-## Para agregar alertas toast
-Basta con hacer uso de la libreria Nextjs Toast Notify a traves de los CDN.
+## Para usar la biblioteca Nextjs Toast Notify, simplemente utiliza su integración mediante CDN.
 
-- visitar esta https://www.nextjstoastnotify.com/ y
-- https://www.npmjs.com/package/nextjs-toast-notify
+    Visita la página oficial: [nextjstoastnotify.com](https://www.nextjstoastnotify.com/) para obtener documentación y ejemplos prácticos.
+    También puedes explorar su paquete en NPM: [nextjs-toast-notify.](https://www.npmjs.com/package/nextjs-toast-notify)
 
 ### Expresiones de Gratitud 🎁
 
