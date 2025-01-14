@@ -4,6 +4,60 @@ Esta es una guía para crear un CRUD con JavaScript y ademas crear una API RESTf
 
 ![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/refs/heads/master/CRUD-de-usuarios-con-JavaScript-PHP-y-MySQL.gif)
 
+# Guía para Crear un CRUD con JavaScript y una API RESTful con PHP y MySQL
+
+Esta guía te enseña paso a paso cómo desarrollar un **CRUD completo** (Crear, Leer, Actualizar y Eliminar) utilizando tecnologías esenciales.  
+
+## Descripción
+
+Aprenderás a:  
+- Diseñar una **API RESTful básica** utilizando **PHP** y el gestor de bases de datos relacional **MySQL**.  
+- Crear un frontend interactivo con **JavaScript** para consumir la API y gestionar datos en tiempo real.  
+
+Este proyecto es ideal para construir aplicaciones funcionales, aprender los fundamentos de la comunicación cliente-servidor y sentar las bases para proyectos más avanzados.
+
+## Características del Proyecto
+
+1. **Backend**:
+   - Implementación de una API RESTful básica con PHP.
+   - Gestión de una base de datos MySQL para almacenar información.
+   - Funcionalidades completas de CRUD:
+     - **Crear**: Agregar nuevos registros a la base de datos.
+     - **Leer**: Recuperar y listar registros.
+     - **Actualizar**: Editar información existente.
+     - **Eliminar**: Borrar registros de forma segura.
+
+2. **Frontend**:
+   - Interfaz dinámica construida con JavaScript.
+   - Consumo de la API RESTful utilizando `fetch` o una librería AJAX.
+   - Actualizaciones en tiempo real para reflejar cambios en la interfaz.
+
+## Requisitos
+
+- **PHP** 7.x o superior.
+- **MySQL** o MariaDB como base de datos.
+- Servidor local (XAMPP, WAMP, Laragon, etc.).
+- Navegador moderno compatible con JavaScript.
+
+## Instrucciones
+
+1. **Configurar el servidor**:
+   - Instala y configura tu servidor local.
+   - Crea una base de datos en MySQL para almacenar los datos.
+
+2. **Construir la API con PHP**:
+   - Define los endpoints para cada operación CRUD.
+   - Conecta PHP con la base de datos MySQL.
+
+3. **Desarrollar el Frontend con JavaScript**:
+   - Diseña una interfaz que permita gestionar los datos (formularios y tablas).
+   - Implementa las llamadas a la API para interactuar con el backend.
+
+4. **Probar la aplicación**:
+   - Verifica las funcionalidades CRUD desde la interfaz.
+   - Asegúrate de que las operaciones se reflejen correctamente en la base de datos.
+
+
 ## Estructura del proyecto
 
 ```plaintext
