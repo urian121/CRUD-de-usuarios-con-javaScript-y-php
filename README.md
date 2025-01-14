@@ -1,10 +1,8 @@
-# Crud con JavaScript - PHP y MySQL
+# Guía para Crear un CRUD con JavaScript y una API RESTful con PHP y MySQL
 
 Esta es una guía para crear un CRUD con JavaScript y ademas crear una API RESTful básica usando PHP y el gestor de base de datos relacional MySQL. Incluye funcionalidades CRUD completas (Crear, Leer, Actualizar y Eliminar) junto con un frontend en JavaScript para interactuar con la API.
 
 ![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/refs/heads/master/CRUD-de-usuarios-con-JavaScript-PHP-y-MySQL.gif)
-
-# Guía para Crear un CRUD con JavaScript y una API RESTful con PHP y MySQL
 
 Esta guía te enseña paso a paso cómo desarrollar un **CRUD completo** (Crear, Leer, Actualizar y Eliminar) utilizando tecnologías esenciales.  
 
