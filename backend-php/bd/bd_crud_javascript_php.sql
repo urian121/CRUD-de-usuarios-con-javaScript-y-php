@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost:3306
--- Tiempo de generación: 13-01-2025 a las 21:52:50
+-- Tiempo de generación: 14-01-2025 a las 14:47:50
 -- Versión del servidor: 8.0.30
 -- Versión de PHP: 8.1.10
 
@@ -42,8 +42,11 @@ CREATE TABLE `tbl_usuarios` (
 --
 
 INSERT INTO `tbl_usuarios` (`id`, `name`, `email`, `age`, `speak_english`, `created_at`, `updated_at`) VALUES
-(1, 'Urian', 'urian@gmail.com', 35, 'Si', '2025-01-13 15:21:48', '2025-01-13 15:21:54'),
-(2, 'Brenda', 'brenda@gmail.com', 18, 'No', '2025-01-14 15:24:06', '2025-01-15 15:24:06');
+(1, 'Urian Viera', 'urian@gmail.com', 35, 'No', '2025-01-13 15:21:48', '2025-01-13 15:21:54'),
+(2, 'Brenda', 'brenda@gmail.com', 18, 'No', '2025-01-14 15:24:06', '2025-01-15 15:24:06'),
+(8, 'Abelardo', 'abelardo@gmail.com', 56, '1', '2025-01-14 08:23:01', '2025-01-14 08:23:01'),
+(10, 'Felipe', 'felipe@gmail.com', 45, 'Si', '2025-01-14 08:23:46', '2025-01-14 08:23:46'),
+(11, 'Carmen', 'carmen@gmail.com', 12, 'Si', '2025-01-14 08:24:09', '2025-01-14 08:24:09');
 
 --
 -- Índices para tablas volcadas
@@ -63,7 +66,7 @@ ALTER TABLE `tbl_usuarios`
 -- AUTO_INCREMENT de la tabla `tbl_usuarios`
 --
 ALTER TABLE `tbl_usuarios`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
