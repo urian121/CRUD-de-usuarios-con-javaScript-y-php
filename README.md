@@ -64,7 +64,7 @@ crud-javascript-php/
 ├── assets/
 │   ├── css/
 │   ├── js/app.js
-├── backend/
+├── backend-php/
 │   ├── configBD.php
 │   ├── api.php
 ├── README.md
@@ -75,7 +75,7 @@ crud-javascript-php/
 ### Método GET (Obtener todos los usuarios) ✅
 
 ```plaintext
-👉 http://localhost/crud-javascript-php/backend/api.php
+👉 http://localhost/crud-javascript-php/backend-php/api.php
 ```
 **Ejemplo de respuesta:**
 ```json
@@ -104,7 +104,7 @@ crud-javascript-php/
 ### Método GET (Obtener usuario por ID) ✅
 
 ```plaintext
-👉 http://localhost/crud-javascript-php/backend/api.php?id=1
+👉 http://localhost/crud-javascript-php/backend-php/api.php?id=1
 ```
 **Ejemplo de respuesta:**
 ```json
@@ -122,7 +122,7 @@ crud-javascript-php/
 ### Método POST (Crear un nuevo usuario) ✅
 
 ```plaintext
-👉 http://localhost/crud-javascript-php/backend/api.php
+👉 http://localhost/crud-javascript-php/backend-php/api.php
 ```
 **Datos de ejemplo:**
 ```json
@@ -143,7 +143,7 @@ crud-javascript-php/
 ### Método PUT (Actualizar un usuario existente) ✅
 
 ```plaintext
-👉 http://localhost/crud-javascript-php/backend/api.php?id=3
+👉 http://localhost/crud-javascript-php/backend-php/api.php?id=3
 ```
 **Datos de ejemplo:**
 ```json
@@ -164,7 +164,7 @@ crud-javascript-php/
 ### Método DELETE (Eliminar un usuario por ID) ✅
 
 ```plaintext
-👉 http://localhost/crud-javascript-php/backend/api.php?id=3
+👉 http://localhost/crud-javascript-php/backend-php/api.php?id=3
 ```
 **Ejemplo de respuesta:**
 ```json
