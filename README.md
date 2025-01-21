@@ -32,7 +32,7 @@ Este proyecto es ideal para construir aplicaciones funcionales, aprender los fun
 
 ## Requisitos
 
-- **PHP** 7.x o superior.
+- **PHP** 8.x.
 - **MySQL** o MariaDB como base de datos.
 - Servidor local (XAMPP, WAMP, Laragon, etc.).
 - Navegador moderno compatible con JavaScript.
