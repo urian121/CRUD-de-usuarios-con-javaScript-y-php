@@ -27,7 +27,7 @@ Este proyecto es ideal para construir aplicaciones funcionales, aprender los fun
 
 2. **Frontend**:
    - Interfaz dinámica construida con JavaScript.
-   - Consumo de la API RESTful utilizando `fetch` o una librería AJAX.
+   - Consumo de la API RESTful utilizando `fetch`
    - Actualizaciones en tiempo real para reflejar cambios en la interfaz.
 
 ## Requisitos
