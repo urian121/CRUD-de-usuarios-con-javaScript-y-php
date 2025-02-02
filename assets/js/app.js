@@ -7,7 +7,6 @@ const userIdInput = document.getElementById("user-id");
 const nameInput = document.getElementById("name");
 const emailInput = document.getElementById("email");
 const ageInput = document.getElementById("age");
-const speakEnglishInputs = document.getElementsByName("speak_english");
 const formSubmitButton = document.getElementById("form-submit-btn");
 
 // Cargar usuarios y resetear formulario al iniciar
