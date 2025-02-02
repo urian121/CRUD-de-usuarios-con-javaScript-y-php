@@ -1,3 +1,5 @@
+import { toast } from "https://unpkg.com/nextjs-toast-notify@1.34.0/dist/nextjs-toast-notify.js";
+
 const API_URL = "./backend-php/api.php";
 
 // Referencias a elementos del DOM
@@ -24,15 +26,24 @@ userForm.addEventListener("submit", async (e) => {
     name: nameInput.value,
     email: emailInput.value,
     age: ageInput.value,
-    speak_english: document.querySelector('input[name="speak_english"]:checked').id === "Si" ? "Si" : "No",
+    speak_english:
+      document.querySelector('input[name="speak_english"]:checked').id === "Si"
+        ? "Si"
+        : "No",
   };
 
   if (id) {
     // Llamar a la función updateUser(id, userData) y enviale el id del usuario seleccionado mas los datos del formulario
     await updateUser(id, userData);
+
+    // Mostrar notificación
+    showToast("Usuario actualizado correctamente", "info");
   } else {
     // Llamar a la función createUser(userData) y enviale los datos del formulario
     await createUser(userData);
+
+    // Mostrar notificación
+    showToast("Usuario creado correctamente", "success");
   }
 
   userForm.reset(); // Limpiar formulario
@@ -108,10 +119,21 @@ async function updateUser(id, user) {
 
 // Eliminar usuario
 window.deleteUser = async (id) => {
-  if (confirm("¿Estás seguro de eliminar este usuario?")) {
-    await fetch(`${API_URL}?id=${id}`, { method: "DELETE" });
+  await fetch(`${API_URL}?id=${id}`, { method: "DELETE" });
 
-    loadUsers(); // Cargar usuarios
-    userForm.reset(); // Limpiar formulario
-  }
+  loadUsers(); // Cargar usuarios
+  userForm.reset(); // Limpiar formulario
+
+  // Mostrar notificación
+  showToast("Usuario eliminado correctamente", "error");
 };
+
+function showToast(msj, tipo) {
+  toast[tipo](msj, {
+    duration: 5000, // Duración de la notificación en ms
+    position: "top-right", // Posición de la notificación
+    transition: "bounceIn", // Tipo de transición para la entrada
+    icon: "",
+    sonido: true, // Reproducir sonido
+  });
+}
